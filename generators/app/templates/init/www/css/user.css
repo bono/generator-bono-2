@@ -1,0 +1,132 @@
+.mdl-full-layout {
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+}
+
+.mdl-full-layout .mdl-layout__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0;
+}
+
+.mdl-navigation__link .material-icons {
+    margin-right: 32px;
+}
+
+#action-btn {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    z-index: 9999;
+}
+
+.mdl-card--page {
+    width: 100%;
+}
+
+.mdl-card__table {
+    overflow: auto;
+}
+
+.mdl-card__table .empty-row {
+    padding: 18px;
+    line-height: 20px;
+    color: #666;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.117647);
+    font-style: italic;
+}
+
+.mdl-card__table .mdl-data-table {
+    width: 100%;
+}
+
+.mdl-card__table th:first-child {
+    width: 1px;
+}
+
+.empty-row {
+    font-size: .8em;
+    text-align: center;
+}
+
+.mdl-card__supporting-text {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.mdl-data-table tr {
+    border-top: 1px solid rgba(0,0,0,.12);
+    border-bottom: 1px solid rgba(0,0,0,.12);
+}
+
+.notification {
+    /*margin: 10px auto;*/
+    min-height: auto;
+    width: 100%;
+    display: none;
+    background-color: #FBF1D4;
+    color: #ffffff;
+    text-align: center;
+}
+
+.notification--visible {
+    display: inherit;
+}
+
+.notification div {
+    padding: 10px 30px 10px 10px;
+}
+
+.notification p {
+    display: inline-block;
+    padding: 0 10px;
+    border-radius: 15px;
+    margin: 2px 0;
+    color: #3f51b1;
+}
+
+.notification__error p {
+    color: #d50000;
+}
+
+
+.notification--close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: #666;
+}
+
+form .mdl-grid {
+    padding: 0;
+}
+
+form .mdl-cell {
+    margin: 0;
+}
+
+form .mdl-textfield {
+    width: 100%;
+}
+
+form .mdl-textfield .field {
+    padding: 4px 0;
+    display: block;
+    border: none;
+    border-bottom: 1px solid rgba(0,0,0,.12);
+}
+
+form input[type=number] {
+    text-align: right;
+}
+
+.mdl-card.field-group {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.getmdl-select {
+    width: 100%!important;
+}

@@ -1,0 +1,15 @@
+{
+  "name": "<%= name %>",
+  "version": "0.0.1",
+  "description": "The next big thing of me",
+  "author": "Me <me@example.net>",
+  "license": "proprietary",
+  "repository": {
+    "type": "git"
+  },
+  "private": true,
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-connect-php": "0.0.7"
+  }
+}

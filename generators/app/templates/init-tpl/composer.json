@@ -1,0 +1,20 @@
+{
+  "name": "<%= package %>",
+  "authors": [
+    {
+      "name": "<%= authorName %>",
+      "email": "<%= authorEmail %>"
+    }
+  ],
+  "license": "<%= license %>",
+  "require": {
+    "xinix-technology/bono-norm": "~1.0.0",
+    "xinix-technology/bono-auth": "~2.0.0",
+    "reekoheek/t": "~1.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  }
+}

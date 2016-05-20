@@ -1,0 +1,27 @@
+{
+  "name": "generator-bono-2",
+  "version": "1.0.1",
+  "description": "Bono 2.0 Generator",
+  "homepage": "https://bono.github.io",
+  "author": {
+    "name": "Ganesha",
+    "email": "reekoheek@gmail.com",
+    "url": "http://sagara.id"
+  },
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "gulp": "^3.9.1",
+    "shelljs": "^0.6.0",
+    "yeoman-generator": "^0.21.1",
+    "yosay": "^1.0.2"
+  },
+  "devDependencies": {
+    "yeoman-assert": "^2.0.0"
+  },
+  "repository": "bono/generator-bono-2",
+  "license": "MIT",
+  "keywords": [
+    "yeoman-generator",
+    "bono-2"
+  ]
+}
